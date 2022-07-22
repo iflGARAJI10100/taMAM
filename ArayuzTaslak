@@ -1,0 +1,83 @@
+
+from tkinter import *
+from PIL import ImageTk, Image
+import locale   #Gerekli kütüphaneler
+
+locale.setlocale(locale.LC_ALL, 'tr_TR.utf8') #Dosya işlemlerinde türkçe karakter kullanabilmek için 
+
+
+def veritabanındaAra():
+    text_arama_sonuclari.config(state='normal')
+    dosya = open("Arayuz\Mevzuat_Listesi.txt", encoding="utf-8")
+    aranan = arama_cubugu.get("1.0","end")
+    aranan = aranan.replace('\n','')
+    aranan = aranan.replace(' ','$')
+    aranan = aranan.split('$')
+    text_arama_sonuclari.delete("1.0","end") 
+    total = 0
+    bulunmayan = []
+    for i in aranan:
+        dosya.seek(0,0)
+        x = 0
+        while True:
+            satir=""
+            satir = dosya.readline()
+            if satir == "":
+                break
+
+            satir = satir.split('$')
+            if i.lower()== satir[0]:
+                x+=1
+                text_arama_sonuclari.config(state='normal')
+                text_arama_sonuclari.insert(END,'['+satir[1]+'] '+satir[2]+'\n')
+                text_arama_sonuclari.config(state='disabled')
+        if x >0:
+            total+=x
+        else:
+            bulunmayan.append(i)
+
+    text_arama_sonuclari.config(state='normal')
+    if total !=0:
+        text_arama_sonuclari.insert(END,'('+ str(total) + ") adet sonuç bulundu." )
+        
+        if len(bulunmayan) != 0:
+            for x in range(0,len(bulunmayan)):
+                text_arama_sonuclari.insert(END,"\nVeri tabanında \""+bulunmayan[x]+"\" için uygun sonuç bulunamadı." ) 
+
+    else:
+        text_arama_sonuclari.insert(END,"Veri tabanında uygun sonuç bulunamadı." )
+
+    text_arama_sonuclari.config(state='disabled')
+    dosya.close()
+
+root = Tk()
+root.title("Arama Motoru Arayüz")
+img = ImageTk.PhotoImage(Image.open("Arayuz\Logo2.png"))
+
+canvas = Canvas(root, height=500, width=750)
+canvas.pack()
+
+frame_logo = Frame(root,bg='#add8e6')
+frame_arama_cubugu = Frame(root,bg='#add8e6')
+frame_arama_cubugu_buton = Frame(root,bg='#add8e6')
+s_cubuk = Scrollbar(root)
+text_arama_sonuclari = Text(root,width=100,height=5, wrap=NONE, yscrollcommand = s_cubuk.set,border=1,font='Roboto 14')
+s_cubuk = Scrollbar(text_arama_sonuclari)
+s_cubuk.pack(side=RIGHT, fill='both')   #Widgetların oluşturulması
+
+
+frame_logo.place(relx=0.2,rely = 0.05,relwidth=0.6,relheight=0.2)
+frame_arama_cubugu.place(relx=0.03,rely = 0.27,relwidth=0.8,relheight=0.07)
+frame_arama_cubugu_buton.place(relx=0.84,rely = 0.27,relwidth=0.14,relheight=0.07)
+text_arama_sonuclari.place(relx=0.03,rely = 0.35,relwidth=0.94,relheight=0.62)
+Label(frame_logo,image=img).place(relx=0.0,rely = 0.0,relwidth=1,relheight=1)   #Widgetların boyut ayarı 
+
+arama_cubugu = Text(frame_arama_cubugu, height=15, font='style')
+arama_cubugu.tag_configure('style', foreground= '#bfbfbf', font=('Ariel', 36, 'bold'))
+arama_cubugu.place(relx=0.0,rely = 0.0,relwidth=1,relheight=1)  #Arama Çubuğu
+
+arama_cubugu_buton = Button(frame_arama_cubugu_buton,text="Ara",font='Ariel 14',command=veritabanındaAra,height=15,width=15)
+arama_cubugu_buton.place(relx=0.0,rely = 0.0,relwidth=1,relheight=1)
+s_cubuk.config( command = text_arama_sonuclari.yview )  #Buton
+
+root.mainloop() #MainLoop
