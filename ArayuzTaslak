@@ -1,83 +1,74 @@
+#Gerekli kütüphanelerin eklenmesi
 
 from tkinter import *
 from PIL import ImageTk, Image
-import locale   #Gerekli kütüphaneler
-
-locale.setlocale(locale.LC_ALL, 'tr_TR.utf8') #Dosya işlemlerinde türkçe karakter kullanabilmek için 
 
 
-def veritabanındaAra():
-    text_arama_sonuclari.config(state='normal')
-    dosya = open("Arayuz\Mevzuat_Listesi.txt", encoding="utf-8")
-    aranan = arama_cubugu.get("1.0","end")
-    aranan = aranan.replace('\n','')
-    aranan = aranan.replace(' ','$')
-    aranan = aranan.split('$')
-    text_arama_sonuclari.delete("1.0","end") 
-    total = 0
-    bulunmayan = []
-    for i in aranan:
-        dosya.seek(0,0)
-        x = 0
-        while True:
-            satir=""
-            satir = dosya.readline()
-            if satir == "":
-                break
+def hide(widget): #Kullanılmayacak elemanları gizlenmesi için onları pack_forget yapacak olan fonksiyon
+    widget.pack_forget()
 
-            satir = satir.split('$')
-            if i.lower()== satir[0]:
-                x+=1
-                text_arama_sonuclari.config(state='normal')
-                text_arama_sonuclari.insert(END,'['+satir[1]+'] '+satir[2]+'\n')
-                text_arama_sonuclari.config(state='disabled')
-        if x >0:
-            total+=x
-        else:
-            bulunmayan.append(i)
+def Arama(): #Arama sonuçlarının eklenmesi örneği
+  Label(aramaFrame,text=secilenTip.get(),font="Roboto 14").pack()
+    
+def SonrakiAdım():
+    #Önceki ekrandan kalan elemanların gizlenmesi
+    hide(anaFrame)
+    hide(logo)
+    hide(aramaCubugu)
+    hide(aramaButonu)
+    
+    #Önceden eklenen gizli elemanların görünür hale getirilmesi
+    ustFrame.place(relx=0,rely=0,relheight=0.05,relwidth=1)
+    aramaFrame.place(relx=0.1,rely=0.07,relheight=0.85,relwidth=0.45)
+    logoKucuk.pack(padx=5,side='left')
+    aramaCubugu1.pack(padx=10,side='left')
+    aramaButonu1.pack(padx=5,side="left")
+    siralamaTip.pack(padx=5, side="left")
 
-    text_arama_sonuclari.config(state='normal')
-    if total !=0:
-        text_arama_sonuclari.insert(END,'('+ str(total) + ") adet sonuç bulundu." )
-        
-        if len(bulunmayan) != 0:
-            for x in range(0,len(bulunmayan)):
-                text_arama_sonuclari.insert(END,"\nVeri tabanında \""+bulunmayan[x]+"\" için uygun sonuç bulunamadı." ) 
-
-    else:
-        text_arama_sonuclari.insert(END,"Veri tabanında uygun sonuç bulunamadı." )
-
-    text_arama_sonuclari.config(state='disabled')
-    dosya.close()
-
+#Tkinter kütüphanesinden ekranın temelini oluşturacak "root" objesini oluşturma 
 root = Tk()
-root.title("Arama Motoru Arayüz")
-img = ImageTk.PhotoImage(Image.open("Arayuz\Logo2.png"))
 
-canvas = Canvas(root, height=500, width=750)
-canvas.pack()
+#Arayuz içinde kullanılacak logoların görsel objelerine atanması
+img = ImageTk.PhotoImage(Image.open("Arayuz\Logo 10.png"))
+img1 = ImageTk.PhotoImage(Image.open("Arayuz\\taMAM.png"))
 
-frame_logo = Frame(root,bg='#add8e6')
-frame_arama_cubugu = Frame(root,bg='#add8e6')
-frame_arama_cubugu_buton = Frame(root,bg='#add8e6')
-s_cubuk = Scrollbar(root)
-text_arama_sonuclari = Text(root,width=100,height=5, wrap=NONE, yscrollcommand = s_cubuk.set,border=1,font='Roboto 14')
-s_cubuk = Scrollbar(text_arama_sonuclari)
-s_cubuk.pack(side=RIGHT, fill='both')   #Widgetların oluşturulması
+#root elemanının özelliklerini belirleme
+root.state("zoomed") #Ekranı kaplaması için
+root.title("taMAM - Tarayıcı Mevzuat Arama Motoru") #Başlık Ayarı
+root.configure(background='white') #Arkaplan rengi
 
+#Başlangıçta diğer elemanları kapsayacak "anaFrame" Frame widgetını oluşturma
+anaFrame = Frame(root,background='white') #Özellikleri
+anaFrame.place(relx=0.3,rely=0.1,relwidth=0.4,relheight=0.5) #Ekranda kaplayacağı alanı ve ekrana koyulması
 
-frame_logo.place(relx=0.2,rely = 0.05,relwidth=0.6,relheight=0.2)
-frame_arama_cubugu.place(relx=0.03,rely = 0.27,relwidth=0.8,relheight=0.07)
-frame_arama_cubugu_buton.place(relx=0.84,rely = 0.27,relwidth=0.14,relheight=0.07)
-text_arama_sonuclari.place(relx=0.03,rely = 0.35,relwidth=0.94,relheight=0.62)
-Label(frame_logo,image=img).place(relx=0.0,rely = 0.0,relwidth=1,relheight=1)   #Widgetların boyut ayarı 
+#Büyük logo elemanının oluşturulması
+logo = Label(anaFrame,image=img) #Özellikleri (img görsel nesnesine bağlı)
+logo.pack(pady=5) #anaFrame içine koyulması ve ekrana eklenmesi
 
-arama_cubugu = Text(frame_arama_cubugu, height=15, font='style')
-arama_cubugu.tag_configure('style', foreground= '#bfbfbf', font=('Ariel', 36, 'bold'))
-arama_cubugu.place(relx=0.0,rely = 0.0,relwidth=1,relheight=1)  #Arama Çubuğu
+#Kullanıcının arama yapacağı metni gireceği Text objesinin oluşturulması
+aramaCubugu = Text(anaFrame,height=1,font='Roboto 14',border=5) #Özellikleri
+aramaCubugu.pack(padx=5,pady=10,side=TOP) #anaFrame içine koyulması ve ekrana eklenmesi
 
-arama_cubugu_buton = Button(frame_arama_cubugu_buton,text="Ara",font='Ariel 14',command=veritabanındaAra,height=15,width=15)
-arama_cubugu_buton.place(relx=0.0,rely = 0.0,relwidth=1,relheight=1)
-s_cubuk.config( command = text_arama_sonuclari.yview )  #Buton
+#Kullanıcının arama yaptığını belirtmesi için arama Butonu elemanının oluşturulması
+aramaButonu = Button(anaFrame,text="Veritabanında Ara",font="Roboto 12",command=SonrakiAdım) #Özellikleri
+aramaButonu.pack(side=TOP) #anaFrame içine koyulması ve ekrana eklenmesi
 
-root.mainloop() #MainLoop
+#Ekranın altındaki görsel amaçlı gri alanın oluşturulması
+AltGri = Frame(root,background="#f5f5f5") #Özellikleri
+AltGri.place(relx=0,rely=0.95,relwidth=1,relheight=0.05) #anaFrame içine koyulması ve ekrana eklenmesi
+
+#Sonraki adımlarda görünecek ama şu an gizli olan elemanların oluşturulması
+aramaFrame = Frame(root,bg="#f5f5f5")
+ustFrame = Frame(root,bg="#f5f5f5")
+logoKucuk = Label(ustFrame,image=img1)
+aramaCubugu1 = Text(ustFrame,height=1,width=75,font='Roboto 14',border=5)
+aramaButonu1 = Button(ustFrame,text="Veritabanında Ara",font="Roboto 12",command=Arama)
+
+#Sıralama türünü seçmeyi sağlayacak Optionmenu elemanı için gereken kodlar
+secilenTip = StringVar(root)
+secilenTip.set("Sıralama Türü:")
+siralamaTip = OptionMenu(ustFrame,secilenTip,
+"Popüler Aramalar",
+"En Son Eklenenler")
+
+root.mainloop() #Kullanıcının girişini bekleyecek sonsuz döngüyü oluşturma
