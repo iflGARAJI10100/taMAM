@@ -3,7 +3,6 @@
 from tkinter import *
 from PIL import ImageTk, Image
 
-
 def hide(widget): #Kullanılmayacak elemanları gizlenmesi için onları pack_forget yapacak olan fonksiyon
     widget.pack_forget()
 
