@@ -39,3 +39,5 @@
 - Yönetmelik | 597 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, kurum, mevzuat_no, mevzuat_tarihi, madde_sayisi, data_text, url
 - Tebliğ | 623 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, kurum, data_text, url
 - Özelge | 750 | kategori, baslik, kurum, mevzuat_tarihi, data_text, url
+
+# KANUN KATEGORİSİNDE Veri Doldurma
