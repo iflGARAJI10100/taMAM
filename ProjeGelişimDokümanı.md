@@ -2,6 +2,7 @@
 
 MODÜLLER VE GELİŞİM AŞAMALARI
 - Madde Sayısı Modülü
+
 -- Kural bazlı ilk çözümümüz ile ilgili bulgular
 -- Toplam kontrol edilen belge sayısı (Kanun): 514
 Toplam hatalı kayıt sayısı (Kanun): 73
