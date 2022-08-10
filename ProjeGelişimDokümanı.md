@@ -1,4 +1,6 @@
-
+Sütun 1|Sütun 1|Sütun 1|Sütun 1|
+Satır 1|Satır 1|Satır 1|Satır 1|
+Tablo bu şekilde oluyor
 
 MODÜLLER VE GELİŞİM AŞAMALARI
 - Madde Sayısı Modülü
