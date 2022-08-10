@@ -1,7 +1,7 @@
-|Tablo bu şekilde oluyor      | |
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
+|Tablo bu şekilde oluyor      | |
 | Content Cell  | Content Cell  |
 
 
