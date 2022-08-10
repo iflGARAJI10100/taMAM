@@ -16,12 +16,12 @@
 
 ## 3. Belgelerde Kategori Bulma Mödülü
   - Belge Kategorilerine göre Kural bazlı yöntemlerimiz hakkındaki bulgular:
-  
+  - Özellikle Keskinlik alanında çalışmlar yapılması gerekmektedir.
   
   | Yöntem ve Kategori | Doğruluk (Accuracy) | Keskinlik (Precision) | Hassasiyet (Sensisivity) / Duyarlılık (Recall) | Özgüllük (Specifity) | F1 Puanı (F1 Score) |
   |---|---|---|---|---|---|
-  |Kural Bazlı Kanun Bulma Yöntemi|A|A|A|A|A|
-  |Kural Bazlı Genelge Bulma Yöntemi|0.9587155963302753|0.6931407942238267|0.9974025974025974|0.9547511312217195|0.8390603993494585|
-  |Kural Bazlı Komisyon Raporu Bulma Yöntemi|A|A|A|A|A|
-  |Kural Bazlı Tebliğ Bulma Yöntemi|A|A|A|A|A|
-  |Kural Bazlı Yönetmelik Bulma Yöntemi|A|A|A|A|A|
+  |Kural Bazlı Kanun Bulma Yöntemi|0.9864799613713182|0.9017543859649123|1.0| 0.9845644983461963|0.9560996218242673|
+  |Kural Bazlı Kanun Hükmünde Kararname Bulma Yöntemi|0.9587155963302753|0.6931407942238267|0.9974025974025974|0.9547511312217195|0.8390603993494585|
+  |Kural Bazlı Komisyon Raporu Bulma Yöntemi|0.9181554804442298|0.5959475566150179|1.0|0.9069192751235585|0.7930809889863655|
+  |Kural Bazlı Tebliğ Bulma Yöntemi|0.8027522935779816|0.43226256983240224|0.9935794542536116|0.7689684569479965|0.7150784464491825|
+  |Kural Bazlı Yönetmelik Bulma Yöntemi|0.8570738773539353|0.5021132713440406|0.9949748743718593|0.8338504936530324|0.7479096397155272|
