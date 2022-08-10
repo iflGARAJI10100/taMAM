@@ -1,6 +1,9 @@
-Sütun 1|Sütun 1|Sütun 1|Sütun 1|
-Satır 1|Satır 1|Satır 1|Satır 1|
-Tablo bu şekilde oluyor
+|Tablo bu şekilde oluyor        |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 
 MODÜLLER VE GELİŞİM AŞAMALARI
 - Madde Sayısı Modülü
