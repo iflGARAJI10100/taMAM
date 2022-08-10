@@ -1,4 +1,4 @@
-|Tablo bu şekilde oluyor        |
+|Tablo bu şekilde oluyor        ||
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
