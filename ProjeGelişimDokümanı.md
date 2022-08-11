@@ -14,10 +14,7 @@
     - Kural bazlı çözüm : 513/513 
   - Kural bazlı sistemin ana avantajı TDDİ ye göre oldukça daha hızlı olması, ancak kuralın her kategoride uygulanabilecek bir yöntem olup olmadığı hala test ediliyor.
   
-  <a href="https://imgur.com/Zy9BX0b"><img src="https://i.imgur.com/Zy9BX0b.png" title="source: imgur.com" /></a>
- |||Kategori|Başlık|Resmi Gazete No|Mükerrer No|Resmi Gazete Tarihi|Kanun No|Kanun Tarihi|
-  |-----|-----|----------|--------|-----------------|-------------|---------------------|----------|--------------|
-  |||Doğru Tahmin|Yanlış Tahhmin:|
+ <a href="https://imgur.com/vYpbMOw"><img src="https://i.imgur.com/vYpbMOw.png" title="source: imgur.com" /></a>
 
 ## 3. Belgelerde Kategori Bulma Mödülü
   - Belge Kategorilerine göre Kural bazlı yöntemlerimiz hakkındaki bulgular:
