@@ -13,6 +13,10 @@
     - TDDİ-"savasy/bert-base-turkish-squad" : 377/380
     - Kural bazlı çözüm : 513/513 
   - Kural bazlı sistemin ana avantajı TDDİ ye göre oldukça daha hızlı olması, ancak kuralın her kategoride uygulanabilecek bir yöntem olup olmadığı hala test ediliyor.
+  
+  |:---:|:---:|:Kategori:|:Başlık:|:Resmi Gazete No:|:Mükerrer No:|:Resmi Gazete Tarihi:|:Kanun No:|:Kanun Tarihi:|
+  |-----|-----|----------|--------|-----------------|-------------|---------------------|----------|--------------|
+  |:---:|:---:|:Doğru Tahmin:|:Yanlış Tahhmin:|
 
 ## 3. Belgelerde Kategori Bulma Mödülü
   - Belge Kategorilerine göre Kural bazlı yöntemlerimiz hakkındaki bulgular:
