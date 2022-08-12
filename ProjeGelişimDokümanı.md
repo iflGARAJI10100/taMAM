@@ -27,6 +27,7 @@
  <a href="https://imgur.com/qbhidSC"><img src="https://i.imgur.com/qbhidSC.png" title="source: imgur.com" /></a>
 
 ## 3. Belgelerde Kategori Bulma Mödülü
+  - YÖNTEM: Kategorilerin "Madde 1"lerine kadar olan kısımları içerisinde kategorilerin türlerini tespit etmeye yarayan özel ifadeleri kural bazlı bir arama ile bulur. Bulunan sonuçlara göre Karmaşıklık Matrisi değerleri çıkartılır.
   - Belge Kategorilerine göre Kural bazlı yöntemlerimiz hakkındaki bulgular:
   - Özellikle Keskinlik alanında çalışmlar yapılması gerekmektedir.
   
@@ -45,5 +46,20 @@
   
 
 ## 4. Mükerrer No Bulma Modülü
-  - Data_text alanından mükerrer no yu bulan kural bazlı bir modül.
-  - Şu anki hali ile %95 başarı oranına sahip ancak geliştirmeler üzerinde çalışmalar devam ediyor.
+  - YÖNTEM: Belgelerin Data_Text alanlarından ilk 310 karakteri çeker ve içlerinde kural bazlı Mükerrer No araması yapar.
+  - Data_text alanından Mükerrer No'yu bulan Kural Bazlı Modülümüz hakkındaki bulgularımız:
+  - Yapyığımız geliştirmeler sonucunda modül, 4142 dosya arasından **22** hata ile **0.99** doğruluk oranı ile çalışmaktadır.
+  - Data_text içinde geçen "Mükerrer" ifadelerinin Maddeler içinde olup olmadığının tespit edilmesi konusunda çalışmlar yapılması gerekmektedir.
+
+  |Kategori|Toplam Belge|Doğru|Yanlış|Doğruluk Oranı|
+  |---|---|---|---|---|
+  |Kanun|514|514|0|1.0|
+  |Kanun Hükmünde Kararname|91|91|0|1.0|
+  |Resmi Gazete|546|546|0|1.0|
+  |Komisyon Raporu|500|500|0|1.0|
+  |Genelge|385|385|0|1.0|
+  |Cumhurbaşkanlığı Kararnamesi|54|54|0|1.0|
+  |Tüzük|82|82|0|1.0|
+  |Yönetmelik|597|596|1|0.998|
+  |Tebliğ|623|602|21|0.966|
+  |Özelge|750|750|0|1.0|
