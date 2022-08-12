@@ -4,18 +4,18 @@
  - YÖNTEM: "Madde XX -" bu yapı doküman içinde parça parça aranır, yapı tespit edildiğinde XX sayısı alınır, mevcut madde sayısında takip eden sayı bulunmuşsa mevcut madde sayısı güncellenir. İstisnalar olarak EK ve GEÇİCİ için kontrol yapılır. İşlenmemiş Madde fonksiyonu düşük verimde çalışmaktadır.
  - Kural bazlı ilk çözümümüz ile ilgili bulgular: 
  
- |Kategori|Toplam Belge|Doğru|Yanlış|Doğruluk Oranı|
- |---|---|---|---|---|
- |Kanun|514|---|---|---|
- |KHK|91|---|---|---|
- |Resmi Gazete|546|---|---|---|
- |Komisyon Raporu|500|---|---|---|
- |Genelge|385|---|---|---|
- |Cumhurbaşkanlığı Kararnamesi|54|---|---|---|
- |Tüzük|82|---|---|---|
- |Yönetmelik|597|---|---|---|
- |Tebliğ|623|---|---|---|
- |Özelge|750|---|---|---|
+|Kategori|Toplam Belge|Doğru|Yanlış|Doğruluk Oranı|
+|---|---|---|---|---|
+|Kanun|514|494|20|0.961|
+|KHK|91|86|5|0.945|
+|Resmi Gazete|546|546|0|1.0|
+|Komisyon Raporu|500|500|0|1.0|
+|Genelge|385|385|0|1.0|
+|Cumhurbaşkanlığı Kararnamesi|54|53|1|0.981|
+|Tüzük|82|76|6|0.927|
+|Yönetmelik|597|589|8|0.987|
+|Tebliğ|623|623|0|1.0|
+|Özelge|750|750|0|1.0|
  
 ## 2. Data_text İçinden Veri Çıkarım Modülü
   - TDDİ yerine kural bazlı çözüm konması ve kıyası
