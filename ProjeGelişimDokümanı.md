@@ -6,16 +6,16 @@
  
  |Kategori|Toplam Belge|Doğru|Yanlış|Doğruluk Oranı|
  |---|---|---|---|---|
- |Kanun|---|---|---|---|
- |KHK|---|---|---|---|
- |Resmi Gazete|---|---|---|---|
- |Komisyon Raporu|---|---|---|---|
- |Genelge|---|---|---|---|
- |Cumhurbaşkanlığı Kararnamesi|---|---|---|---|
- |Tüzük|---|---|---|---|
- |Yönetmelik|---|---|---|---|
- |Tebliğ|---|---|---|---|
- |Özelge|---|---|---|---|
+ |Kanun|514|---|---|---|
+ |KHK|91|---|---|---|
+ |Resmi Gazete|546|---|---|---|
+ |Komisyon Raporu|500|---|---|---|
+ |Genelge|385|---|---|---|
+ |Cumhurbaşkanlığı Kararnamesi|54|---|---|---|
+ |Tüzük|82|---|---|---|
+ |Yönetmelik|597|---|---|---|
+ |Tebliğ|623|---|---|---|
+ |Özelge|750|---|---|---|
  
 ## 2. Data_text İçinden Veri Çıkarım Modülü
   - TDDİ yerine kural bazlı çözüm konması ve kıyası
