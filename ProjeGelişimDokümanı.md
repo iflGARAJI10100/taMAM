@@ -43,3 +43,7 @@
   |Kural Bazlı Tebliğ Bulma Yöntemi|0.8027522935779816|0.43226256983240224|0.9935794542536116|0.7689684569479965|0.7150784464491825|
   |Kural Bazlı Özelge Bulma Yöntemi|0.751569290197972|0.42140845070422533|0.9973333333333333|0.6972287735849056|0.751422687731069|
   
+
+## 4. Mükerrer No Bulma Modülü
+  - Data_text alanından mükerrer no yu bulan kural bazlı bir modül.
+  - Şu anki hali ile %95 başarı oranına sahip ancak geliştirmeler üzerinde çalışmalar devam ediyor.
