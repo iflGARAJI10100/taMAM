@@ -1,17 +1,18 @@
 
-# Katkıcı Ahdi Topluluk Sözleşmesi
+# taMAM - Tarayıcı Mevzuat Arama Motoru | Code Of Conduct
 
-## Taahhüdümüz
+Bu doküman, Teknofest 2022 Türkçe Doğal Dil İşleme yarışması kapsamındaki Kamuda Mevzuat Arama Motoru geliştirme kategorisinde çalışan taMAM - Tarayıcı Mevzuat Arama Motoru ekibinin resmi Github hesabındaki Takım Üyesi - Takım Üyesi, Takım Üyesi - Katkıda Bulunan Kişiler ve Katkıda Bulunan Kişiler - Katkıda Bulunan Kişiler arasında kabul edilmiş kurallar bütünlüğünden oluşmaktadır.
 
-Herkes için açık ve erişilebilir bir ortam sağlamak amacıyla üyeler, katkıda bulunanlar ve liderler olarak biz katkı vermeyi yaş, beden ölçüsü, görünür veya görünmez sakatlık, etnik köken, cinsiyet özellikleri, cinsiyet kimlik ve ifadesi, tecrübe seviyesi, eğitim, sosyo-ekonomik durum, milliyet, kişisel görünüm, ırk, din veya cinsel kimlik ve yönelim ayrımı gözetmeden keyifli ve güvenli bir tecrübe haline getirmeyi taahhüt ediyoruz.
+# Neden bir Code of Conduct'a İhtiyaç Duyuyoruz?
 
-Açık, misafirperver, çeşitliliği destekleyen, kapsayıcı ve sağlıklı bir topluluk oluşturacak şekilde hareket etmeyi ve etkileşim kurmayı taahhüt ediyoruz.
+Bu Davranış Kuralları (Code of Conduct) rahat, huzurlu, korkusuz ve üretken bir topluluk inşaa edebilmemize yardımcı olmak için tasarlanmıştır. Bu Davranış Kurallarının (Code Of Conduct) amacı; topluluğumuza bir takım gereksiz kurallar yüklemek, "kötü" insanlara cezalar uygulamak ya da geçmişte bir takım yanlış yapılmış uygulamaları düzeltmeye çalışmak değildir. Burada yazılmış kurallara uyulmayan ve/veya daha kötü şartlarda çalışmak durumunda kalmış insanlarla bir araya geldiğimizde de yine harika bir topluluk ortaya koyabilmeyi amaçlamaktadır.
 
 ## Standartlarımız
 
 Bizim için olumlu bir topluluk ortamına katkıda bulunan davranış örnekleri şunları içerir:
 
 - Diğer insanlara karşı empati ve nezaket göstermek
+- Diğer yarışmacılara, onların projelerine ve kodlarına saygılı davranmak.
 - Farklı görüşlere, bakış açılarına ve deneyimlere saygılı olmak
 - Yapıcı geri bildirim verme ve geri bildirimi zarifçe kabul etme
 - Sorumluluğu kabul etmek ve hatalarımızdan etkilenenlerden özür dilemek, ve bu deneyimlerden öğrenme
@@ -68,14 +69,3 @@ Topluluk liderleri, bu Davranış Kurallarını ihlal ettiklerini düşündükle
 **Topluluk Etkisi**: Sürekli uygunsuz davranışlar, bir bireyin taciz edilmesi veya bireylerin sınıflarına karşı saldırganlık veya aşağılama dahil olmak üzere, topluluk standartlarının ihlalinde devamlılık göstermek.
 
 **Sonuç**: Topluluk içindeki her türlü açık etkileşimden kalıcı bir yasak.
-
-## Kaynak
-
-Bu Davranış Kuralları [Katılımcı Sözleşmesinden] uyarlanmıştır, sürüm 2.0'a şu adresten ulaşılabilir: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
-
-Topluluk Etki Yönergeleri [Mozilla'nın davranış kuralları icra merdiveninden](https://github.com/mozilla/diversity) ilham alındı.
-
-Bu davranış kuralları hakkında sık sorulan soruların yanıtları için https://www.contributor-covenant.org/faq adresindeki SSS bölümüne bakın. Çevirilere https://www.contributor-covenant.org/translations adresinden ulaşabilirsiniz.
-
-
-[Katılımcı Sözleşmesinden]: https://www.contributor-covenant.org
