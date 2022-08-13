@@ -41,3 +41,4 @@
 - Özelge | 750 | kategori, baslik, kurum, mevzuat_tarihi, data_text, url
 
 # KANUN KATEGORİSİNDE Veri Doldurma
+- Doldurulacak yerler: rega_no, mukerrer_no, rega_tarihi, mevzuat_no, mevzuat_tarihi kural bazlı sistem ile %100 doğrulukla doldurulabilmektedir.
