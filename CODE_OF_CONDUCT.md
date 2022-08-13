@@ -1,10 +1,10 @@
-
+![Logo](https://github.com/iflGARAJI10100/taMAM/blob/main/taMAM%20Proje%20Logo.png)
 # taMAM - Tarayıcı Mevzuat Arama Motoru | Code Of Conduct
 
 Bu doküman, Teknofest 2022 Türkçe Doğal Dil İşleme yarışması kapsamındaki Kamuda Mevzuat Arama Motoru geliştirme kategorisinde çalışan taMAM - Tarayıcı Mevzuat Arama Motoru ekibinin resmi Github hesabındaki Takım Üyesi - Takım Üyesi, Takım Üyesi - Katkıda Bulunan Kişiler ve Katkıda Bulunan Kişiler - Katkıda Bulunan Kişiler arasında kabul edilmiş kurallar bütünlüğünden oluşmaktadır.
 
 # Neden bir Code of Conduct'a İhtiyaç Duyuyoruz?
-
+https://imgur.com/a/VswRf0a
 Bu Davranış Kuralları (Code of Conduct) rahat, huzurlu, korkusuz ve üretken bir topluluk inşaa edebilmemize yardımcı olmak için tasarlanmıştır. Bu Davranış Kurallarının (Code Of Conduct) amacı; topluluğumuza bir takım gereksiz kurallar yüklemek, "kötü" insanlara cezalar uygulamak ya da geçmişte bir takım yanlış yapılmış uygulamaları düzeltmeye çalışmak değildir. Burada yazılmış kurallara uyulmayan ve/veya daha kötü şartlarda çalışmak durumunda kalmış insanlarla bir araya geldiğimizde de yine harika bir topluluk ortaya koyabilmeyi amaçlamaktadır.
 
 ## Standartlarımız
