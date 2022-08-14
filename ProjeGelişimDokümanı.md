@@ -19,12 +19,9 @@
  
 ## 2. Data_text İçinden Veri Çıkarım Modülü
   - TDDİ yerine kural bazlı çözüm konması ve kıyası
-  - Doğruluk oranları(Kanun kategorisinde)
-    - TDDİ-"savasy/bert-base-turkish-squad" : 377/380
-    - Kural bazlı çözüm : 513/513 
   - Kural bazlı sistemin ana avantajı TDDİ ye göre oldukça daha hızlı olması, ancak kuralın her kategoride uygulanabilecek bir yöntem olup olmadığı hala test ediliyor.
-  
- <a href="https://imgur.com/qbhidSC"><img src="https://i.imgur.com/qbhidSC.png" title="source: imgur.com" /></a>
+  - Doğruluk oranları(Kanun kategorisinde):
+ <a href="https://imgur.com/8IlIN9F"><img src="https://i.imgur.com/8IlIN9F.png" title="source: imgur.com" /></a>
 
 ## 3. Belgelerde Kategori Bulma Mödülü
   - YÖNTEM: Kategorilerin "Madde 1"lerine kadar olan kısımları içerisinde kategorilerin türlerini tespit etmeye yarayan özel ifadeleri kural bazlı bir arama ile bulur. Bulunan sonuçlara göre Karmaşıklık Matrisi değerleri çıkartılır.
