@@ -2,9 +2,9 @@
 
 # taMAM - Tarayıcı Mevzuat Arama Motoru | Contributing
 
-Teknofest 2022 Türkçe Doğal Dil İşleme yarışamsı kapsamındaki Kamuda Mevzuat Arama Motoru kategorisi kapsamında
+Teknofest 2022 Türkçe Doğal Dil İşleme yarışması kapsamındaki Kamuda Mevzuat Arama Motoru kategorisi kapsamında
 kurulan takımımız, yarışma sonrası devam edilecek olan geliştirme sürecinde takım üyelerinin bireysel veya beraberce yaptıkları katkıların dışında
-dışarıdan proje yardımcı olabilecek kişilere ihtiyaç duyacabilecektir. Bu belge de bunun gibi durumlar dahilinde izlenmesi gereken hususları içermektedir.
+dışarıdan projeye yardımcı olabilecek kişilere ihtiyaç duyacabilecektir. Bu belge de bunun gibi durumlar dahilinde izlenmesi gereken hususları içermektedir.
 
 # Nasıl Projeye Katkı Sağlayabilirim?
 
@@ -36,4 +36,4 @@ Proje üzerinde yaptığınız Commitleri açıklamayı da unutmayınız. Küç�
     > Değişiklikleri ve etkilerini açıklayan bir paragraf."
     
 Şimdiden bütün geliştiricilere şükranlarımız sunarız.
-Seyithan Toprak GÜNGÖR, taMAM - Tarayıcı Mevzuat Arama Motoru Ekibi
+taMAM - Tarayıcı Mevzuat Arama Motoru Ekibi
