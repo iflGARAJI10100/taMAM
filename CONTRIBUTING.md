@@ -36,4 +36,5 @@ Proje üzerinde yaptığınız Commitleri açıklamayı da unutmayınız. Küç�
     > Değişiklikleri ve etkilerini açıklayan bir paragraf."
     
 Şimdiden bütün geliştiricilere şükranlarımız sunarız.
+
 taMAM - Tarayıcı Mevzuat Arama Motoru Ekibi
