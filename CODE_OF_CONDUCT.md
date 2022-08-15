@@ -4,7 +4,6 @@
 Bu doküman, Teknofest 2022 Türkçe Doğal Dil İşleme yarışması kapsamındaki Kamuda Mevzuat Arama Motoru geliştirme kategorisinde çalışan taMAM - Tarayıcı Mevzuat Arama Motoru ekibinin resmi Github hesabındaki Takım Üyesi - Takım Üyesi, Takım Üyesi - Katkıda Bulunan Kişiler ve Katkıda Bulunan Kişiler - Katkıda Bulunan Kişiler arasında kabul edilmiş kurallar bütünlüğünden oluşmaktadır.
 
 # Neden bir Code of Conduct'a İhtiyaç Duyuyoruz?
-https://imgur.com/a/VswRf0a
 Bu Davranış Kuralları (Code of Conduct) rahat, huzurlu, korkusuz ve üretken bir topluluk inşaa edebilmemize yardımcı olmak için tasarlanmıştır. Bu Davranış Kurallarının (Code Of Conduct) amacı; topluluğumuza bir takım gereksiz kurallar yüklemek, "kötü" insanlara cezalar uygulamak ya da geçmişte bir takım yanlış yapılmış uygulamaları düzeltmeye çalışmak değildir. Burada yazılmış kurallara uyulmayan ve/veya daha kötü şartlarda çalışmak durumunda kalmış insanlarla bir araya geldiğimizde de yine harika bir topluluk ortaya koyabilmeyi amaçlamaktadır.
 
 ## Standartlarımız
@@ -25,6 +24,7 @@ Kabul edilemez davranış örnekleri şunları içerir:
 - Açıktan veya gizli taciz
 - Açık izinleri olmadan fiziksel adresleri veya e-posta gibi başkalarının özel bilgilerini yayınlama
 - Profesyonel bir ortamda makul sayılmayabilecek diğer davranışlar
+- İntihal ve her türlüsüyle emek hırsızlığı
 
 ## Uygulama Sorumlulukları
 
@@ -38,7 +38,7 @@ Bu Davranış Kuralları tüm topluluk alanlarında geçerlidir ve ayrıca bir k
 
 ## Uygulama
 
-Zorbalık, taciz edici veya başka bir şekilde kabul edilemez davranış örnekleri [BURAYA BİR İLETİŞİM ŞEKLİ YAZILACAK] ile uygulamadan sorumlu topluluk liderlerine bildirilebilir. Tüm şikayetler derhal ve adil bir şekilde incelenecek ve araştırılacaktır.
+Zorbalık, taciz edici veya başka bir şekilde kabul edilemez davranış örnekleri [Şikayet Sayfası](https://github.com/iflGARAJI10100/taMAM/discussions/28) ile uygulamadan sorumlu topluluk liderlerine bildirilebilir. Tüm şikayetler derhal ve adil bir şekilde incelenecek ve araştırılacaktır.
 
 Tüm topluluk liderleri, herhangi bir olayın şikayetçisinin gizliliğine ve güvenliğine saygı göstermekle yükümlüdür.
 
