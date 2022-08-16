@@ -21,7 +21,7 @@
   - TDDİ yerine kural bazlı çözüm konması ve kıyası
   - Kural bazlı sistemin ana avantajı TDDİ ye göre oldukça daha hızlı olması, ancak kuralın her kategoride uygulanabilecek bir yöntem olup olmadığı hala test ediliyor.
   - Doğruluk oranları(Kanun kategorisinde):
- <a href="https://imgur.com/8IlIN9F"><img src="https://i.imgur.com/8IlIN9F.png" title="source: imgur.com" /></a>
+ <a href="https://imgur.com/4XhdLHu"><img src="https://i.imgur.com/4XhdLHu.jpg" title="source: imgur.com" /></a>
 
 ## 3. Belgelerde Kategori Bulma Mödülü
   - YÖNTEM: Kategorilerin "Madde 1"lerine kadar olan kısımları içerisinde kategorilerin türlerini tespit etmeye yarayan özel ifadeleri kural bazlı bir arama ile bulur. Bulunan sonuçlara göre Karmaşıklık Matrisi değerleri çıkartılır.
