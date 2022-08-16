@@ -1,4 +1,6 @@
-# taMAM
+![image](https://github.com/iflGARAJI10100/taMAM/blob/main/taMAM%20Proje%20Logo.png)
+
+# taMAM - Tarayıcı Arama Motoru
 
 ## Takım Kaptanı
 ### Eray AKIN
