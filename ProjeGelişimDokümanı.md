@@ -20,7 +20,7 @@
 ## 2. Data_text İçinden Veri Çıkarım Modülü
   - TDDİ yerine kural bazlı çözüm konması ve kıyası
   - Kural bazlı sistemin ana avantajı TDDİ ye göre oldukça daha hızlı olması, ancak kuralın her kategoride uygulanabilecek bir yöntem olup olmadığı hala test ediliyor.
-  - Doğruluk oranları(Kanun kategorisinde):
+  - Doğruluk oranları:
  <a href="https://imgur.com/4XhdLHu"><img src="https://i.imgur.com/4XhdLHu.jpg" title="source: imgur.com" /></a>
 
 ## 3. Belgelerde Kategori Bulma Mödülü
