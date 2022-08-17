@@ -72,7 +72,7 @@ dogru = 0
 yanlis = 0
 
 for satir in range(satirToplami):
-  arastirilacakParca = df['data_text'][satir]
+  arastirilacakParca = df['data_text'][satir][:310]
   cikti = kategoriBul(arastirilacakParca)
 
   if cikti == 'Cumhurbaşkanlığı Kararnamesi' and df['kategori'][satir] == 'Cumhurbaşkanlığı Kararnamesi':
