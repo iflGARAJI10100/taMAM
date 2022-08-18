@@ -3,6 +3,12 @@ import pandas as pd
 
 def kategoriBul(verilenMetin):
 
+  metin = verilenMetin.lower()
+  # if verilenMetin.find('Gazete')!=-1:
+  if (metin.find("gazete") != -1 or metin.find("yayım")) and (metin.find("kuruluş") != -1 or metin.find("tesis") != -1) and (
+    metin.find("1920") != -1 or metin.find("1336") != -1):
+    return 'Resmi Gazete'
+
   verilenMetin = verilenMetin.replace('  ','')
   verilenMetin = verilenMetin.replace('\n','')
   verilenMetin = verilenMetin.replace('\r','')
@@ -36,7 +42,7 @@ def kategoriBul(verilenMetin):
     return 'Genelge'
 
    # data_text alanındaki kayıdın ilk parçasında  olan "T.C.", "Gelir" veya "GELİR" ifadelerinden biri varsa o bir Özelge'dir önermesini kontrol ediyoruz!
-  if  verilenMetin.find('T.C.') != -1  or verilenMetin.find('Gelir') != -1 or verilenMetin.find('GELİR') != -1 :
+  if  verilenMetin.find('T.C.') != -1  and (verilenMetin.find('Gelir') != -1 or verilenMetin.find('GELİR') != -1) :
     return 'Özelge'
 
   yonetmelikMetin = verilenMetin.replace(' ','')
@@ -57,11 +63,9 @@ def kategoriBul(verilenMetin):
   if tebligMetin.lower().find('tebl')!=-1:
     return 'Tebliğ'
 
+  return 'Resmi Gazete'
+
   # data_text alanındaki kayıdın ilk parçasında Mevzuat No'yu oluşturan parçalardan biri olan "KHK" ifadesi varsa o bir kanundur önermesini kontrol ediyoruz!
-  metin = verilenMetin.lower()
-  #if verilenMetin.find('Gazete')!=-1:
-  if metin.find("gazete") != -1 and (metin.find("kuruluş") != -1 or metin.find("tesis") != -1) and (metin.find("1920") != -1 or metin.find("1336") != -1):
-    return 'Resmi Gazete'
 
 df = pd.read_csv('kanunum-nlp-doc-analysis-dataset.csv')
 df.info(verbose=True)
@@ -112,3 +116,5 @@ for satir in range(satirToplami):
     print(satir, cikti, df['kategori'][satir])
 
 print(dogru, yanlis)
+
+# Son testte 4142 belgeden 3821'i doğru sınıflandırılıp 321 hatalı sınıflandırma mevcuttur. Bu da yaklaşık olarak 0.922 başarı oranına denk gelmektedir.
