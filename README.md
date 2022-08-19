@@ -1,46 +1,70 @@
 ![image](https://github.com/iflGARAJI10100/taMAM/blob/main/taMAM%20Proje%20Logo.png)
 
-# taMAM - Tarayıcı Arama Motoru
+# taMAM | Tarayıcı Mevzuat Arama Motoru
 
-## Takım Kaptanı
-### Eray AKIN
+## Proje Bağlılık Listesi
+### Projenin Çalışması için Gerekli Dosyalar
 
-## Takım Üyesi
-### Seyithan Toprak GÜNGÖR
+|Dosya Adı|İşlevi|
+|:---:|:---:|
+|ana Kod|Yarışmada kullanılacak bütün kodları içeren toplam kod|
+|Veri Seti|Yarışmaya hazırlık süresince kullanılan örnek veri seti|
 
-## Danışman Öğretmen
-### Sertaç ATEŞ
+### Projenin Çalışması için Gerekli Kurulumlar
+Ayrıca [Gereksinimler.txt](https://github.com/iflGARAJI10100/taMAM/blob/main/Gereksinimler.txt) dosyasını da inceleyebilirsiniz.
 
-# Alanlar:
-- id : İçerik kimliği
-- kategori : İçerik Türü/Kategorisi
-- baslik : İçerik Başlığı
-- rega_no : İçeriğin yayınlandığı Resmi Gazete Sayısı
-- mukerrer_no : İçeriğin yayınlandığı Resmi Gazete Mükerrer Numarası (0 ise mükerrer olmadığını belirtir)
-- rega_tarihi : İçeriğin yayınlandığı Resmi Gazete Tarihi (date:yyyy-mm-dd formatında)
-- kurum : İçeriği(Genelge, Cumhurbaşkanlığı(CB) Kararnamesi, Tüzük, Yönetmelik, Tebliğ) çıkaran kurum adı
-- mevzuat_no : İçeriğin ilgili numarası (Detaylar için ilgili kategoriye bakınız)
-- belge_sayi : Genelge üzerindeki Sayı ifadesinin değeri (sadece işlenebilenler)
-- mevzuat_tarihi : İçeriğin ilgili Tarihi (date:yyyy-mm-dd formatında)
-- donem : Komisyon Raporunun dönemini (örn: "27. Dönem")
-- sira_no : Komisyon Raporunun Sıra Sayısı (örn: "230", "42 ek 1" vb.)
-- madde_sayisi : İçeriğin(Kanun, KHK, CB Kararnamesi, Tüzük, Yönetmelik) bölümlerini (Madde sayısını ve işlenemeyen hükümleri/maddeleri, madde metinlerinin içindeki "Madde - ..." ifadeleri hariç )
-- data_text : İçerik metni (Büyük/Küçük Harf, Noktalama ve "\n" içermektedir)
-- url : İçerik metninin esas alındığı websayfasının linki (kaynak linkler güncel olmayabilir)
-- kanunum_url : İçeriğin Kanunum linki
-- Kategori | İçerik Sayısı | İlgili alanlar (Üst Veriler)
+|Dosya Adı|Pip ile İndirme|PyPI Sitesi|
+|:---:|:---:|:---:|
+|pip 22.2.2|-|https://pypi.org/project/pip/|
+|transformers 4.20.1|pip install transformers|https://pypi.org/project/transformers/|
+|pandas 1.3.5|pip install pandas|https://pypi.org/project/pandas/|
+|google colab 1.0.0|-|-|
+|datetime 4.5|pip install DateTime|https://pypi.org/project/DateTime/|
+|matplotlib 3.2.2|pip install matplotlib|https://pypi.org/project/matplotlib/|
+|numpy 1.21.6|pip install numpy|https://pypi.org/project/numpy/|
 
-# Kategoriler
-- Kanun | 514 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, mevzuat_no, mevzuat_tarihi, madde_sayisi, data_text, url
-- Kanun Hükmünde Kararname | 91 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, mevzuat_no, mevzuat_tarihi, madde_sayisi, data_text, url
-- Resmi Gazete | 546 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, data_text, url
-- Komisyon Raporu | 500 | kategori, baslik, donem, sira_no, data_text, url
-- Genelge | 385 | kategori, baslik, kurum, mevzuat_no, belge_sayi, mevzuat_tarihi, data_text, url
-- Cumhurbaşkanlığı Kararnamesi | 54 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, kurum, mevzuat_no, mevzuat_tarihi, madde_sayisi, data_text, url
-- Tüzük | 82 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, kurum, mevzuat_no, mevzuat_tarihi, madde_sayisi, data_text, url
-- Yönetmelik | 597 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, kurum, mevzuat_no, mevzuat_tarihi, madde_sayisi, data_text, url
-- Tebliğ | 623 | kategori, baslik, rega_no, mukerrer_no, rega_tarihi, kurum, data_text, url
-- Özelge | 750 | kategori, baslik, kurum, mevzuat_tarihi, data_text, url
+### Proje'nin Community Standarts Dosyaları
 
-# KANUN KATEGORİSİNDE Veri Doldurma
-- Doldurulacak yerler: rega_no, mukerrer_no, rega_tarihi, mevzuat_no, mevzuat_tarihi kural bazlı sistem ile %100 doğrulukla doldurulabilmektedir.
+|Dosya Adı|Link|
+|:---:|:---:|
+|README.md|https://github.com/iflGARAJI10100/taMAM/blob/main/README.md|
+|CODE_OF_CONDUCT.md|https://github.com/iflGARAJI10100/taMAM/blob/main/CODE_OF_CONDUCT.md|
+|CONTRIBUTING.md|https://github.com/iflGARAJI10100/taMAM/blob/main/CONTRIBUTING.md|
+|LICENSE|https://github.com/iflGARAJI10100/taMAM/blob/main/LICENSE|
+
+## taMAM | Tarayıcı Arama Motoru'nun Modülleri, İşlevleri ve Doğruluk Değerleri
+Daha detaylı bilgilendrime için [ProjeGelişimDokumani.md](https://github.com/iflGARAJI10100/taMAM/blob/main/ProjeGeli%C5%9FimDok%C3%BCman%C4%B1.md) dosyasını inceleyebilirsiniz.
+
+### 1. Kural Bazlı Madde Sayısı Tespit Modülü
+ - Belge Dökümantasyonuna [Buradan](https://github.com/iflGARAJI10100/taMAM/blob/main/aramaProjesiMaddeSayisiBulmaMod%C3%BCl%C3%BC.ipynb) ulaşabilirsiniz. 
+ - YÖNTEM: "Madde XX -" bu yapı doküman içinde parça parça aranır, yapı tespit edildiğinde XX sayısı alınır, mevcut madde sayısında takip eden sayı bulunmuşsa mevcut madde sayısı güncellenir. İstisnalar olarak EK ve GEÇİCİ için kontrol yapılır.
+ 
+### 2. Kural Bazlı Data_text İçinden Veri Çıkarım Modülü
+  - TDDİ yerine kural bazlı çözüm kullanılmıştır.
+  - Kural bazlı sistemin ana avantajı TDDİ ye göre oldukça daha hızlı olması, ancak kuralın her kategoride uygulanabilecek bir yöntem olup olmadığı hala test ediliyor.
+  - Bulgularımız:
+  
+  <a href="https://imgur.com/8fmKDCY"><img src="https://i.imgur.com/8fmKDCY.jpg" title="source: imgur.com" /></a>
+  
+### 3. Belgelerde Kategori Bulma Mödülü
+  - YÖNTEM: Kategorilerin "Madde 1"lerine kadar olan kısımları içerisinde kategorilerin türlerini tespit etmeye yarayan özel ifadeleri kural bazlı bir arama ile bulur. Bulunan sonuçlara göre Karmaşıklık Matrisi değerleri çıkartılır.
+  
+### 4. Mükerrer No Bulma Modülü
+  - Belge Dökümantasyonuna [Buradan](https://github.com/iflGARAJI10100/taMAM/blob/main/aramaProjesiVeriIslemeMukerrerNoTespitModulu.ipynb) ulaşabilirsiniz.
+  - YÖNTEM: Belgelerin Data_Text alanlarından ilk 310 karakteri çeker ve içlerinde kural bazlı Mükerrer No araması yapar.
+
+## Katkılarından Ötürü Teşekkür Ederiz
+- Sayın Furkan KADIOĞLU | Mentör |
+- Değerli Sertaç ATEŞ | Danışman Öğretmen |
+
+## Takım Üyeleri
+- Eray AKIN               | Takım Kaptanı | [ErAk042](https://github.com/ErAk042)
+- Seyithan Toprak GÜNGÖR  | Takım Üyesi | [S-Toprak](https://github.com/S-Toprak)
+- Sertaç ATEŞ             | Danışman Öğretmen | [sertacates](https://github.com/sertacates)
+
+## Hakkımızda
+**taMAM | Tarayıcı Mevzuat Arama Motoru**, **İFL Garajı 10100** takımı tarafından **Teknofest 2022 Türkçe Doğal Dil İşleme Yarışması** kapsamında düzenlenen Kamuda Arama Motoru Geliştirme alanında yarışması için oluşturulan bir NLP projesidir.
+
+Takımımız İzmir Fen Lisesi 11. Sınıf öğrencilerinden oluşmakta olup adımız olan İFL Garajı 10100 günümüz Arama Motorları arasında akla ilk gelen isimlerden biri olan **Google şirketinin kuruluşuna** ve **Googol** sayısına bir göndermedir.
+
+taMAM projesi **Jupyter Notebook'la yazılmış dökümantasyonlar**, **Python** diliyle hazırlanmış olan ana kodumuz ve Community Standart'la ilgli olan **MarkDown dosyalarından** oluşmaktadır. Proje adı ise Teknofest Organizatörleri tarafından yarışmaya hazırlanmamız için bize verilen Veri Setin'den **veri elde etme şeklimizle** oluşturulmuş bir kısaltmadır.
