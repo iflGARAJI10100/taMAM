@@ -7,7 +7,7 @@
 
 |Dosya Adı|İşlevi|
 |:---:|:---:|
-|[aramaProjesiTopluVeriIsleme](https://github.com/iflGARAJI10100/taMAM/blob/main/aramaProjesiTopluVeriIsleme.py)|Yarışmada kullanılacak bütün kodları içeren toplam kod|
+|[main](https://github.com/iflGARAJI10100/taMAM/blob/main/main.py)|Yarışmada kullanılacak bütün kodları içeren toplam kod|
 |[kanunum-nlp-doc-analysis-dataset.csv](https://drive.google.com/file/d/1x4ForEBEwX4k9s3RB1Cs7PqbsWUTp4Oz/view?usp=sharing)|Yarışmaya hazırlık süresince kullanılan örnek veri seti|
 
 ### Projenin Çalışması için Gerekli Kurulumlar
