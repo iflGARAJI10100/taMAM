@@ -1738,16 +1738,7 @@ yanlis = 0
 doldur_dogru = 0
 doldur_yanlis = 0
 
-"""hataSay = 0
-for satirNo in range(satirToplami):
-  if df['kategori'][satirNo]=='Resmi Gazete':
-    if not veriIslemeREGATRH(satirNo):
-      hataSay += 1
 
-print('Fonksiyon bu hali ile RESMİ GAZETE kategorisindeki dokümanın içinden',(546-hataSay)/546,'başarı oranı ile rega_tarihi bulabiliyor!')
-
-
-print("tits")"""
 
 for satir in range(satirToplami):
   arastirilacakParca = df['data_text'][satir][:310]
