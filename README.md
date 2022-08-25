@@ -7,8 +7,8 @@
 
 |Dosya Adı|İşlevi|
 |:---:|:---:|
-|[main](https://github.com/iflGARAJI10100/taMAM/blob/main/main.py)|Yarışmada kullanılacak bütün kodları içeren toplam kod|
-|[kanunum-nlp-doc-analysis-dataset.csv](https://drive.google.com/file/d/1x4ForEBEwX4k9s3RB1Cs7PqbsWUTp4Oz/view?usp=sharing)|Yarışmaya hazırlık süresince kullanılan örnek veri seti|
+|[main.py](https://github.com/iflGARAJI10100/taMAM/blob/main/main.py)|Yarışmada kullanılacak bütün kodları içeren toplam kod|
+|[kanunum-nlp-doc-analysis-dataset.csv](https://www.kanunum.com/)|Kanunum (Karakullukçu Danışmanlık A.Ş.) tarafından hazırlanan Veri Seti|
 
 ### Projenin Çalışması için Gerekli Kurulumlar
 Ayrıca [Gereksinimler.txt](https://github.com/iflGARAJI10100/taMAM/blob/main/Gereksinimler.txt) dosyasını da inceleyebilirsiniz.
