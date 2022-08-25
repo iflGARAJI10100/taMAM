@@ -1,0 +1,9 @@
+Copyright (c) 2022, Kanunum (https://www.kanunum.com). 
+
+Kanunum, bir Karakullukçu Dan. A.Ş. servisidir. “Kanunum” Şirket’in tescilli markasıdır ve tüm hakları saklıdır.
+
+Kanunum NLP Yarışma Veri Seti Kullanım Şartnamesi
+
+Bu veri seti (“Kanunum NLP Yarışma Veri Seti”) Türkiye Açık Kaynak Platformu tarafından 18.07.2022-14.08.2022 arasında düzenlenecek Türkçe Doğal Dil İşleme Yarışmasında (“Yarışma”) kullanılmak amacıyla Karakullukçu Danışmanlık AŞ (“Kanunum”) (http://www.kanunum.com) tarafından hazırlanmış ve çalışmada Kanunum veri tabanı ve içindeki işlenmiş veri kullanılmıştır. Kanunum veri tabanındaki hukuk verisi, Kanunum hukuk araştırma servisinden yararlanan kullanıcılar için ve Doğal Dil İşleme ve hukuk teknolojilerinin geliştirilmesi için oluşturulmakta, derlenmekte ve işlenmektedir. Kanunum NLP Yarışma Veri Seti’nde 5846 sayılı Fikir ve Sanat Eserleri Kanunu altında korunan veri tabanı, veri işleme ve derleme unsurları bulunduğundan, Kanunum NLP Yarışma Veri Setini (Veri Seti) yarışma haricinde çalışmalarında kullanmak isteyenlerin Kanunum’un yazılı olarak iznini almaları gerekmektedir. Veri Seti Kanunum tarafından sadece işbu yarışma için kullanılmak üzere tarafınıza iletilmekte  olup , bu iletim gerek Fikir ve Sanat Eserleri Kanunu, gerekse diğer ilgili mevzuat gereğince herhangi bir hak devri veya muvafakatname niteliği  taşımayacaktır. Veri setinin tamamının veya bir kısmının yarışma dışı kullanımının tespiti halinde Kanunumun yasal yollara başvuru hakkı saklıdır.
+
+Bu ve diğer veri setlerimizin kullanımı ve veri ve hukuk teknolojileri çalışmalarımızla ilgili daha ayrıntılı bilgi için bizimle info@kanunum.com adresi yoluyla iletişime geçebilirsiniz.
